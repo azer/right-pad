@@ -1,0 +1,23 @@
+{
+  "name": "right-pad",
+  "version": "0.0.0",
+  "description": "String right pad",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "pad",
+    "padding",
+    "string"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/right-pad.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "devDependencies": {
+    "prova": "^1.10.0"
+  }
+}
