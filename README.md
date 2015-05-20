@@ -18,4 +18,7 @@ rightpad('foo', 5)
 
 rightpad('foobar', 6)
 // => "foobar"
+
+rightpad(1, 2, 0)
+// => "10"
 ```

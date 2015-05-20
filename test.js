@@ -1,8 +1,10 @@
-var leftpad = require("./");
+var rightpad = require("./");
 var test = require("prova");
 
 test('left pad', function (assert) {
-  assert.plan(2);
-  assert.equal(leftpad('foo', 5), 'foo  ');
-  assert.equal(leftpad('foobar', 6), 'foobar');
+  assert.plan(4);
+  assert.strictEqual(rightpad('foo', 5), 'foo  ');
+  assert.strictEqual(rightpad('foobar', 6), 'foobar');
+  assert.strictEqual(rightpad(1, 2, 0), '10');
+  assert.strictEqual(rightpad(1, 2, '-'), '1-');
 });
